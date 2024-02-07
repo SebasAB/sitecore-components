@@ -6,6 +6,8 @@
   "engines": {
     "vscode": "^1.86.0"
   },
+  "publisher": "SebasAB",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/SebasAB/sitecore-components"
