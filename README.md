@@ -1,71 +1,31 @@
-# sitecore-xm-cloud-components README
+# Sitecore XM Cloud Components
 
-This is the README for your extension "sitecore-xm-cloud-components". After writing up a brief description, we recommend including the following sections.
+Enhance your Sitecore development workflow with the Sitecore XM Cloud Components extension for Visual Studio Code. This extension provides a set of powerful snippets and commands designed to streamline the creation of Sitecore components, specifically tailored for Sitecore XM Cloud development.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Sitecore Component Snippets**: Quickly scaffold new Sitecore components with pre-defined templates. Just type 'scComponent' and the extension will generate a boilerplate React component that adheres to Sitecore XM Cloud development best practices.
 
-For example if there is an image subfolder under your extension project workspace:
+- **Dynamic Naming**: Automatically names your React components based on the file name for a consistent and error-free naming convention. No more manual renaming—get it right from the start!
 
-\!\[feature X\]\(images/feature-x.png\)
+- **TypeScript Support**: Generates TypeScript types and interfaces to match your components, appending 'Props' to your file name for easy identification and strong typing right out of the box.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Ease of Use**: Simple and intuitive commands integrated into the VSCode Command Palette for quick access.
+
+- **Customizable Templates**: Modify the provided templates to fit your project's standards, ensuring that every component you create is up to par with your team's specifications.
+
+## Getting Started
+
+After installing the extension, open a `.jsx` or `.tsx` file and invoke the 'Create Sitecore Component' command from the Command Palette to insert a new component. You can also type 'scComponent' to trigger the snippet for a new Sitecore component.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension is designed for developers working with Sitecore XM Cloud and assumes a basic understanding of Sitecore development practices and React component structure.
 
-## Extension Settings
+## Feedback and Contributions
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Your feedback and contributions are welcome! Please visit the [GitHub repository](https://github.com/yourusername/sitecore-xm-cloud-components) to report issues or submit pull requests.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Unleash the full potential of Sitecore development with Sitecore XM Cloud Components for VSCode!
