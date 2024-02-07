@@ -4,13 +4,11 @@ Enhance your Sitecore development workflow with the Sitecore XM Cloud Components
 
 ## Features
 
-- **Sitecore Component Snippets**: Quickly scaffold new Sitecore components with pre-defined templates. Just type 'scComponent' and the extension will generate a boilerplate React component that adheres to Sitecore XM Cloud development best practices.
-
 - **Dynamic Naming**: Automatically names your React components based on the file name for a consistent and error-free naming convention. No more manual renaming—get it right from the start!
 
 - **TypeScript Support**: Generates TypeScript types and interfaces to match your components, appending 'Props' to your file name for easy identification and strong typing right out of the box.
 
-- **Ease of Use**: Simple and intuitive commands integrated into the VSCode Command Palette for quick access.
+- **Ease of Use**: Simple and intuitive commands integrated into the VSCode Command Palette for quick access. Just enter the command palette and type "Create Sitecore Component" and hit enter.
 
 - **Customizable Templates**: Modify the provided templates to fit your project's standards, ensuring that every component you create is up to par with your team's specifications.
 
