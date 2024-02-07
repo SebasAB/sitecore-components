@@ -24,7 +24,7 @@ This extension is designed for developers working with Sitecore XM Cloud and ass
 
 ## Feedback and Contributions
 
-Your feedback and contributions are welcome! Please visit the [GitHub repository](https://github.com/yourusername/sitecore-xm-cloud-components) to report issues or submit pull requests.
+Your feedback and contributions are welcome! Please visit the [GitHub repository](https://github.com/SebasAB/sitecore-components) to report issues or submit pull requests.
 
 ---
 
