@@ -28,9 +28,6 @@ jobs:
       - name: Install vsce
         run: npm install -g vsce
 
-      - name: Package Extension
-        run: vsce package
-
       - name: Publish Extension
         env:
           VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
