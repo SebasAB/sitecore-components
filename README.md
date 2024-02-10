@@ -12,6 +12,8 @@ Enhance your Sitecore development workflow with the Sitecore XM Cloud Components
 
 - **Customizable Templates**: Modify the provided templates to fit your project's standards, ensuring that every component you create is up to par with your team's specifications.
 
+- **Coming Soon**: Add components based on what you're building, for example: Simple components, Container Rows, Cards, etc.
+
 ## Getting Started
 
 After installing the extension, open a `.jsx` or `.tsx` file and invoke the 'Create Sitecore Component' command from the Command Palette to insert a new component. You can also type 'scComponent' to trigger the snippet for a new Sitecore component.

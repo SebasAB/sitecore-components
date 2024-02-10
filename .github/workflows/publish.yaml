@@ -1,0 +1,37 @@
+name: CI/CD Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+
+      - name: Install Dependencies
+        run: npm install
+
+  deploy:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install vsce
+        run: npm install -g vsce
+
+      - name: Package Extension
+        run: vsce package
+
+      - name: Publish Extension
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
+        run: vsce publish -p ${{ secrets.VSCE_TOKEN }}
