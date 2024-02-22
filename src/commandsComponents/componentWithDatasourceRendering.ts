@@ -26,7 +26,7 @@ type ${propsTypeName} = ComponentProps & {
     fields: Fields;
 };
     
-const ${componentName} = ({ fields, params, rendering }: ${propsTypeName}) => {
+const ${componentName} = ({ fields, params }: ${propsTypeName}) => {
     return (
         <section className={params.styles}>
             {/* Component content */}
