@@ -8,7 +8,7 @@
   },
   "publisher": "SebasAB",
   "license": "MIT",
-  "icon": "assets/icon.png",
+  "icon": "assets/extension-logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/SebasAB/sitecore-components"
