@@ -1,26 +1,29 @@
 # Sitecore XM Cloud Components
 
-Enhance your Sitecore development workflow with the Sitecore XM Cloud Components extension for Visual Studio Code. This extension provides a set of powerful snippets and commands designed to streamline the creation of Sitecore components, specifically tailored for Sitecore XM Cloud development.
+Enhance your Sitecore XM Cloud development workflow with the "Sitecore XM Cloud Components" extension for Visual Studio Code. Designed specifically for Sitecore XM Cloud, this extension simplifies the component creation process, offering developers a suite of commands to generate various Sitecore components with ease.
 
 ## Features
 
-- **Dynamic Naming**: Automatically names your React components based on the file name for a consistent and error-free naming convention. No more manual renaming—get it right from the start!
+**Dynamic Component Creation**: Streamline your development with commands tailored to generate different types of Sitecore components, each equipped with essential configurations and predefined templates to kickstart your project.
 
-- **TypeScript Support**: Generates TypeScript types and interfaces to match your components, appending 'Props' to your file name for easy identification and strong typing right out of the box.
+- **Create Sitecore Basic Component**: Instantly scaffold a basic Sitecore component complete with `Datasourcecheck`, predefined interfaces, types, and necessary imports, setting a solid foundation for your development.
+- **Create Component with Placeholder**: Build upon the basic component by adding the required setup for Sitecore placeholders, making it easier to manage content layout and structure.
+- **Create Component with Dynamic Placeholder**: Advance your component with dynamic placeholder capabilities, including the setup for unique identifier management, catering to more complex content structures.
+- **Create Component with Datasource Rendering**: Specialize in components that utilize `withDatasourceRendering` from Constellation for scenarios without a traditional datasource, enhancing flexibility in content rendering.
 
-- **Ease of Use**: Simple and intuitive commands integrated into the VSCode Command Palette for quick access. Just enter the command palette and type "Create Sitecore Component" and hit enter.
+**Ease of Use**: Access these powerful commands through the VSCode Command Palette. Type in your desired command, like "Create Sitecore Basic Component", and hit enter to get started.
 
-- **Customizable Templates**: Modify the provided templates to fit your project's standards, ensuring that every component you create is up to par with your team's specifications.
+**Customizable Templates**: Adapt the provided component templates to align with your project's standards, ensuring consistency and quality in your development efforts.
 
-- **Coming Soon**: Add components based on what you're building, for example: Simple components, Container Rows, Cards, etc.
+**TypeScript Support & Dynamic Naming**: Automatically generate TypeScript types and interfaces, and enjoy consistent component naming based on your file names, eliminating manual effort and potential errors.
 
 ## Getting Started
 
-After installing the extension, open a `.jsx` or `.tsx` file and invoke the 'Create Sitecore Component' command from the Command Palette to insert a new component. You can also type 'scComponent' to trigger the snippet for a new Sitecore component.
+After installing the extension, simply open a `.jsx` or `.tsx` file, access the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`), and select the command for the component you wish to create. Begin with "Create Sitecore Component" to insert a new component template instantly.
 
 ## Requirements
 
-This extension is designed for developers working with Sitecore XM Cloud and assumes a basic understanding of Sitecore development practices and React component structure.
+This extension is crafted for developers immersed in Sitecore XM Cloud, assuming familiarity with Sitecore's development paradigms and React's component model.
 
 ## Feedback and Contributions
 
@@ -28,4 +31,4 @@ Your feedback and contributions are welcome! Please visit the [GitHub repository
 
 ---
 
-Unleash the full potential of Sitecore development with Sitecore XM Cloud Components for VSCode!
+Transform your Sitecore XM Cloud development with the "Sitecore XM Cloud Components" extension for VSCode. Unlock a streamlined, efficient, and consistent component creation process today!

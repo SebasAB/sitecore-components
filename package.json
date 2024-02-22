@@ -2,7 +2,7 @@
   "name": "sitecore-xm-cloud-components",
   "displayName": "Sitecore XM Cloud Components",
   "description": "Provides convenient snippets and commands for quickly scaffolding Sitecore XM Cloud components in React, with dynamic naming based on file names and TypeScript integration.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.86.0"
   },
