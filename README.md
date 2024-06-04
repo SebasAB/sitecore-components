@@ -1,25 +1,23 @@
 # Sitecore XM Cloud Components
 
-Enhance your Sitecore XM Cloud development workflow with the "Sitecore XM Cloud Components" extension for Visual Studio Code. Designed specifically for Sitecore XM Cloud, this extension simplifies the component creation process, offering developers a suite of commands to generate various Sitecore components with ease.
+Enhance your Sitecore XM Cloud development workflow with the "Sitecore XM Cloud Components" extension for Visual Studio Code. Designed specifically for Sitecore XM Cloud, this extension simplifies the component creation process, offering developers a guided experience to generate various Sitecore components with ease.
 
 ## Features
 
 **Dynamic Component Creation**: Streamline your development with commands tailored to generate different types of Sitecore components, each equipped with essential configurations and predefined templates to kickstart your project.
 
-- **Create Sitecore Basic Component**: Instantly scaffold a basic Sitecore component complete with `Datasourcecheck`, predefined interfaces, types, and necessary imports, setting a solid foundation for your development.
-- **Create Component with Placeholder**: Build upon the basic component by adding the required setup for Sitecore placeholders, making it easier to manage content layout and structure.
-- **Create Component with Dynamic Placeholder**: Advance your component with dynamic placeholder capabilities, including the setup for unique identifier management, catering to more complex content structures.
-- **Create Component with Datasource Rendering**: Specialize in components that utilize `withDatasourceRendering` from Constellation for scenarios without a traditional datasource, enhancing flexibility in content rendering.
+- **Create Sitecore Component with Snippet**: Use an interactive prompt to scaffold a Sitecore component. The extension guides you through selecting the component type, placeholder type, and fields, generating a fully functional component based on your inputs.
+- **Supports Various Component Types**: Create components with `Datasourcecheck`, `withDatasourceRendering`, placeholders, and dynamic placeholders, enhancing flexibility in content rendering.
+- **Interactive Prompts**: Answer guided questions to specify component details, ensuring each component is tailored to your specific needs.
+- **TypeScript Support & Dynamic Naming**: Automatically generate TypeScript types and interfaces, and enjoy consistent component naming based on your file names, eliminating manual effort and potential errors.
 
-**Ease of Use**: Access these powerful commands through the VSCode Command Palette. Type in your desired command, like "Create Sitecore Basic Component", and hit enter to get started.
+**Ease of Use**: Access these powerful commands through the VSCode Command Palette. Type in your desired command, like "Create Sitecore Component with Snippet", and follow the prompts to get started.
 
-**Customizable Templates**: Adapt the provided component templates to align with your project's standards, ensuring consistency and quality in your development efforts.
-
-**TypeScript Support & Dynamic Naming**: Automatically generate TypeScript types and interfaces, and enjoy consistent component naming based on your file names, eliminating manual effort and potential errors.
+**Customizable Templates**: Adapt the generated component templates to align with your project's standards, ensuring consistency and quality in your development efforts.
 
 ## Getting Started
 
-After installing the extension, simply open a `.jsx` or `.tsx` file, access the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`), and select the command for the component you wish to create. Begin with "Create Sitecore Component" to insert a new component template instantly.
+After installing the extension, simply open a `.jsx` or `.tsx` file, access the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`), and select the command "Create Sitecore Component with Snippet". Follow the interactive prompts to insert a new component template instantly.
 
 ## Requirements
 
