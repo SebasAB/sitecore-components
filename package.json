@@ -2,7 +2,7 @@
   "name": "sitecore-xm-cloud-components",
   "displayName": "Sitecore XM Cloud Components",
   "description": "Provides convenient snippets and commands for quickly scaffolding Sitecore XM Cloud components in React, with dynamic naming based on file names and TypeScript integration.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -17,28 +17,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:sitecore-xm-cloud-components.insertBasicSitecoreComponentWithDatasource",
-    "onCommand:sitecore-xm-cloud-components.insertComponentWithPlaceholder",
-    "onCommand:sitecore-xm-cloud-components.insertComponentWithDynamicPlaceholder"
+    "onCommand:sitecore-xm-cloud-components.createSnippet"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "sitecore-xm-cloud-components.insertBasicSitecoreComponentWithDatasource",
-        "title": "Create Basic Sitecore Component"
-      },
-      {
-        "command": "sitecore-xm-cloud-components.insertComponentWithPlaceholder",
-        "title": "Create Component with Placeholder"
-      },
-      {
-        "command": "sitecore-xm-cloud-components.insertComponentWithDynamicPlaceholder",
-        "title": "Create Component with Dynamic Placeholder"
-      },
-      {
-        "command": "sitecore-xm-cloud-components.insertComponentWithDatasourceRendering",
-        "title": "Create Component with Datasource Rendering"
+        "command": "sitecore-xm-cloud-components.createSnippet",
+        "title": "Create Sitecore component"
       }
     ]
   },
